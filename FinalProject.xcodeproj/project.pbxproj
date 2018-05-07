@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		951C65321DC3053200C4EE05 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 951C65311DC3053200C4EE05 /* main.cpp */; };
+		955B68141DCD055F00725D8B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 951C65311DC3053200C4EE05 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		951C652E1DC3053200C4EE05 /* FinalProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FinalProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		951C65311DC3053200C4EE05 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		955B683B1DD0535300725D8B /* Casino.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Casino.cpp; sourceTree = "<group>"; };
+		955B683C1DD0535300725D8B /* Casino.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Casino.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				951C65311DC3053200C4EE05 /* main.cpp */,
+				955B683B1DD0535300725D8B /* Casino.cpp */,
+				955B683C1DD0535300725D8B /* Casino.hpp */,
 			);
 			path = FinalProject;
 			sourceTree = "<group>";
@@ -119,7 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				951C65321DC3053200C4EE05 /* main.cpp in Sources */,
+				955B68141DCD055F00725D8B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +250,7 @@
 				951C65371DC3053200C4EE05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
